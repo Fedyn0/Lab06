@@ -15,3 +15,13 @@ class Controller:
             return
         self._view.txt_result.controls.append(ft.Text(f"Hello, {name}!"))
         self._view.update_page()
+
+    def fill_ddAnno(self):
+        pass
+
+    def fill_ddBrand(self):
+        pass
+
+    def fill_ddRetailer(self):
+        pass
+
