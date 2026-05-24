@@ -31,7 +31,7 @@ class View(ft.UserControl):
             hint_text="Inserisci un anno"
         )
 
-        self._controller.fillDDAnno()
+        self._controller.fill_ddAnno()
 
         self.ddBrand = ft.Dropdown(
             label="brand",
@@ -39,7 +39,7 @@ class View(ft.UserControl):
             hint_text="Inserisci un brand"
         )
 
-        self._controller.fillDDBrand()
+        self._controller.fill_ddBrand()
 
         self.ddRetailer = ft.Dropdown(
             label="retailer",
@@ -47,7 +47,7 @@ class View(ft.UserControl):
             hint_text="Inserisci un retailer"
         )
 
-        self._controller.fillDDRetailer()
+        self._controller.fill_ddRetailer()
 
         row1 = ft.Row([self.ddAnno, self.ddBrand, self.ddRetailer],
                       alignment=ft.MainAxisAlignment.CENTER)
