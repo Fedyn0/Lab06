@@ -54,7 +54,8 @@ class View(ft.UserControl):
         self._page.controls.append(row1)
 
         self.btn_top_vendite = ft.ElevatedButton(
-            text="Top vendite", )
+            text="Top vendite",
+            on_click= self._controller.handle_btn_top_vendite,)
 
         self.btn_analizza_vendite = ft.ElevatedButton(
             text="Analizza vendite",
